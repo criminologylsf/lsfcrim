@@ -8,5 +8,6 @@ r=function(){dpi=window.devicePixelRatio;};
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
 initMenu($('#m3')[0]);
+initMenu($('#m4')[0]);
 if(location.hash){var o=location.hash.replace('#',''),e=function(){if(document.body.getBoundingClientRect().top>0){var t=document.querySelectorAll('[name="'+o+'"]')[0];t&&t.scrollIntoView(!0),setTimeout(e,100)}};e()}
 });
