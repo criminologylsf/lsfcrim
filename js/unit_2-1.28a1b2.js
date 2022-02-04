@@ -16,6 +16,7 @@ var a='data-src';var e=document.querySelector('.un21 .slide8');if(e.hasAttribute
 var a='data-src';var e=document.querySelector('.un21 .slide9');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/10.-sociological-realist-theories-701.png':'images/10.-sociological-realist-theories-350.png');};
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
+initMenu($('#m12')[0]);
 $('.un21 .slider').slick({lazyLoad: 'ondemand',slidesToShow: 1,slidesToScroll: 1,overflow: 'hidden',fade: true,slide: 'div',cssEase: 'linear',speed: 300,dots: false,arrows: true,infinite: true});if(location.hash){var e=location.hash.replace("#",""),o=function(){var t=document.querySelectorAll('[name="'+e+'"]')[0];t&&t.scrollIntoView(),"complete"!=document.readyState&&setTimeout(o,100)};o()}
 
 });
